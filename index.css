@@ -1,0 +1,49 @@
+.if-header {
+    font-size: 20pt;
+    font-weight: bold;
+    color: #9cce2b;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 3rem;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.stundentafel-header {
+    background-color: #9cce2b;
+    color: white;
+}
+
+.stundentafel {
+    font-family: 'Source Sans Pro', sans-serif;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center;
+    border: solid grey 0.5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.fach {
+    text-align: left;
+    padding-left: 10pt;
+    padding-right: 5pt;
+}
+
+.logo {
+    width: 35vh;
+}
+
+.navbar {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    padding: 10;
+    background-color: white;
+}
