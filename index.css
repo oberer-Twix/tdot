@@ -1,0 +1,84 @@
+.if-header {
+    font-size: 20pt;
+    font-weight: bold;
+    color: #9cce2b;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 3rem;
+}
+
+body {
+    left: 0;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.stundentafel-header {
+    background-color: #9cce2b;
+    color: white;
+}
+
+.stundentafel {
+    font-family: 'Source Sans Pro', sans-serif;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center;
+    border: solid grey 0.5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    min-width: 45pt;
+}
+
+.fach {
+    text-align: left;
+    padding-left: 10pt;
+    padding-right: 5pt;
+}
+
+.logo {
+    width: 35vh;
+}
+
+.navbar {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    padding: 10;
+    background-color: white;
+}
+
+.text {
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.my-content {
+    margin-top: 70px;
+}
+
+.fusszeile {
+    margin: 5vh 0 0 0;
+    left: 0;
+    background-color: #595b60;
+    width: 100%;
+    border: none;
+}
+
+.fusszeile-header {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.name {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 30pt;
+}
